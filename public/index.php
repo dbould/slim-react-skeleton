@@ -10,6 +10,7 @@ if (PHP_SAPI == 'cli-server') {
 }
 
 require_once __DIR__ . '/../bootstrap.php';
+session_start();
 
 // Run app
 $app->run();
